@@ -10,9 +10,9 @@ Acoording to the relationship of the gray value:
 
 $I_d(u+U(u,v), v+V(u,v))=I_r(u, v)$ 
 
-Using the given image as the deformed image $I_d$, and the displacement field $U, V$ as the displacement label, the reference image $I_r$ can be generated using interpolation (Bicibic, B-spline or bilinear, provided in this responsitory), accelaterated by pytorch.
+Using the given image as the deformed image $I_d$ , and the displacement field $U, V$ as the displacement label, the reference image $I_r$ can be generated using interpolation (Bicibic, B-spline or bilinear, provided in this responsitory), accelaterated by pytorch.
 
-使用给定图像作为变形后图像 $I_d$，使用给定位移场$U, V$作为位移标签，参考图像可以通过上式使用插值方法生成（这里提供了双三次、B-样条、双线性插值方法），插值方法通过pytorch使用GPU加速。
+使用给定图像作为变形后图像 $I_d$ ，使用给定位移场$U, V$作为位移标签，参考图像可以通过上式使用插值方法生成（这里提供了双三次、B-样条、双线性插值方法），插值方法通过pytorch使用GPU加速。
 
 ## Requirement 运行环境
 - python
