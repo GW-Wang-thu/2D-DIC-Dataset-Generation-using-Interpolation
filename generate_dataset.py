@@ -3,7 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 import os
 from displacement_generation import deformation
-from interpolation import interpolator
+from interpolation import interpolator_N as intorpolator
 
 
 class img_loader():
